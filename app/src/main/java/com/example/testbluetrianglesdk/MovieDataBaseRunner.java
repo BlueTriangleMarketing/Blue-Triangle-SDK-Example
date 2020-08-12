@@ -26,7 +26,7 @@ public class MovieDataBaseRunner extends AsyncTask<String, String, JSONObject> {
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("GET");
             connection.setRequestProperty("x-rapidapi-host","movie-database-imdb-alternative.p.rapidapi.com");
-            connection.setRequestProperty("x-rapidapi-key","6c926d38d2mshcb9db754e1dd50cp11a347jsn0e5ac212038b");
+            connection.setRequestProperty("x-rapidapi-key","YOUR KEY HERE");
             connection.setRequestProperty("Content-Type", "application/json");
             connection.setRequestProperty("Accept","application/json");
             connection.setRequestProperty("useQueryString","true");
